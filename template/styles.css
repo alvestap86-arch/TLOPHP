@@ -20,7 +20,7 @@ body {
     background-position:
         calc(-44px - 17px * (var(--c) - 1))
         calc(-1px  - 17px * (var(--f) - 1));
-    image-rendering: pixelated;
+    image-rendering:  pixelated;
 }
 
 .tile-puente        { --c: 1; --f: 1; }   /* a1 */
@@ -72,6 +72,10 @@ body {
 .tile-montana3-s-d  { --c: 6; --f: 7; }   /* f7 */
 .tile-montana3-i-d  { --c: 6; --f: 8; }   /* f8 */
 
+
+.tile-montana2-s-i,
+.tile-montana3-s-i,
+.tile-montana1-s-i,
 .tile-montana2-s-m,
 .tile-montana2-s-d,
 .tile-montana2-i-i,

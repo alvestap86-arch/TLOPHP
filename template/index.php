@@ -10,7 +10,7 @@
         <div class="tablero">
             <?php foreach ($tablero1 as $fila): ?>
                 <?php foreach ($fila as $codigo): ?>
-                    <div class="tile tile-<?= $tipos[$codigo] ?? 'desconocido' ?>"></div>
+                    <div class="tile tile-<?php echo $tipos[$codigo] ?? 'desconocido' ?>"></div>
                 <?php endforeach; ?>
             <?php endforeach; ?>
         </div>
